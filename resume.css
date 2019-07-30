@@ -1,39 +1,58 @@
-
-body{
-    background-color: blanchedalmond;
-    color: black;
+html, body{
     margin: 0;
-    text-align: center;
-    font-size: 22px;
-}
-.topnav{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: auto;
     background-color: black;
-    margin: 0;
 }
 
-.topnav a{
+.navbar-brand{
+    font-family: Futura;
+    color: whitesmoke;
+}
+.navbar-brand:hover{
+    color:#DC4301 !important;
+}
+
+.navbar{
+    background-color: black;
+    padding-bottom: 2px;
+}
+
+#navbarNav{
+    font-family: Futura;
+}
+.nav-link:hover{
+    color: whitesmoke !important;
+}
+.wrapper{
+    padding-top: 0 px;
+    background-color: black; 
+}
+#section{
+    background-color: black;
+    font-family: Garamond;
     color: white;
-    font-family: "Garamond";
-    font-size: 32px;
+}
+hr{
+    border-color:white;
+    background-color: #DC4301;
+    width: 15%;
+}
+#languages{
+    font-style: italic;
 }
 
-a{
-    text-decoration: none;
+#link{
+    color: whitesmoke;
 }
-img{
+
+#link:hover{
+    color: #DC4301;
+}
+/* img{
     border-radius: 50%;
-}
+} */
 
 
-.Work{
-    border: 10px;
-    background-color: gainsboro;
-}
-
-.sub-heading{
+/* .sub-heading{
     text-align: center;
     
     font-weight: bold;
@@ -52,5 +71,5 @@ h2{
 h1{
     text-align: center;
     margin: 10px;
-}
+} */
 

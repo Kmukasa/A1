@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+    background-color: black;
+}
+
+.navbar-brand{
+    font-family: Futura;
+    color: whitesmoke;
+}
+.navbar-brand:hover{
+    color:#DC4301 !important;
+}
+
+.navbar{
+    background-color: black;
+    padding-bottom: 5px;
+
+}
+
+#navbarNav{
+    font-family: Futura;
+}
+.nav-link:hover{
+    color: whitesmoke !important;
+}
+.content{
+    background-color: black;
+}
+
+#wrapper{
+    padding-top: 12rem;
+    background-color: black;
+    font-family: Garamond;
+    color: whitesmoke;
+}
+#bio{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+}
+hr{
+    background-color: #DC4301;
+    width: 15%;
+}
+
+/* 
+ .row {
+    background-color: black;
+    display: flex;
+    padding: 0 4px;
+} */
+
+/* .column {
+max-width: 25%;
+padding: 0 4px;
+}
+  
+.column img {
+width: 100%;
+height: auto;
+margin-top: 8px;
+margin-left: auto;
+margin-right: auto;
+} */
+
+/*
+.gallery{
+    margin-top: 0%;
+    align-content: center;
+    justify-content: center;
+}
+ 
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.description{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 120%;
+}
+
+.bio{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    margin-right: 100px;
+} */
