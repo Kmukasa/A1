@@ -28,7 +28,8 @@ html, body{
 }
 #section{
     background-color: black;
-    font-family: Garamond;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
     color: white;
 }
 hr{

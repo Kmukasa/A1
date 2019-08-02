@@ -21,29 +21,68 @@ html, body{
 }
 .nav-link:hover{
     color: whitesmoke !important;
-}
+} 
 .wrapper{
-    padding-top: 0 px;
     background-color: black; 
-}
 
+}
 .container{
     background-color: black;
     color: whitesmoke;
     margin-top: 10rem;
 
+
+}
+.row{
+    padding-top: 5rem;
+    padding-bottom: 5px;
+
 }
 
 #block{
-
-    width: 25%;
-    border: 1px solid #DC4301;
+    /* border: 2px solid #DC4301; */
+    padding: 5px 5px 5px 5px;
+    background-color: #2F2F30;
     border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px; 
+    /* width: 0rem; */
+    height: 20rem;
+}
+
+#block:hover{
+    border: 2px solid #DC4301;
 }
 
 p{
     color: whitesmoke;
-    font-family: Garamond;
+    font-family: Futura;
+    text-align: center;
+}
+
+.icon{
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.LOC-icon{
+    display: block;
+    width: 20%;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#languages{
+    color: #DC4301;
+    font-size: 11px;
+}
+
+#information{
+    font-size: 14px;
+    text-align: left;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
 }
