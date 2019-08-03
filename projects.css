@@ -9,6 +9,7 @@ html, body{
 }
 .navbar-brand:hover{
     color:#DC4301 !important;
+    /* color:#EF760B !important; */
 }
 
 .navbar{
@@ -29,22 +30,17 @@ html, body{
 .container{
     background-color: black;
     color: whitesmoke;
-    margin-top: 10rem;
-
-
+    margin-top: 5rem;
 }
 .row{
     padding-top: 5rem;
     padding-bottom: 5px;
-
 }
 
 #block{
-    /* border: 2px solid #DC4301; */
     padding: 5px 5px 5px 5px;
-    background-color: #2F2F30;
+    background-color: #636768;
     border-radius: 5px;
-    /* width: 0rem; */
     height: 20rem;
 }
 
@@ -56,6 +52,8 @@ p{
     color: whitesmoke;
     font-family: Futura;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .icon{
@@ -85,4 +83,8 @@ p{
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none !important;
+}
+
+#year{
+    font-size: 14px;
 }
