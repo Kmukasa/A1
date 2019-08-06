@@ -41,7 +41,7 @@ html, body{
     padding: 5px 5px 5px 5px;
     background-color: #636768;
     border-radius: 5px;
-    height: 20rem;
+    height: 21rem;
 }
 
 #block:hover{
@@ -54,6 +54,18 @@ p{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+li{
+    color: whitesmoke !important;
+}
+
+ul{
+    list-style: square;
 }
 
 .icon{
@@ -80,10 +92,7 @@ p{
     text-align: left;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none !important;
-}
+
 
 #year{
     font-size: 14px;
