@@ -8,8 +8,7 @@ html, body{
     color: whitesmoke;
 }
 .navbar-brand:hover{
-    color:#DC4301 !important;
-    /* color:#EF760B !important; */
+    color:#00A6A6 !important;
 }
 
 .navbar{
@@ -45,7 +44,7 @@ html, body{
 }
 
 #block:hover{
-    border: 2px solid #DC4301;
+    border: 2px solid #00A6A6;
 }
 
 p{
@@ -83,7 +82,7 @@ ul{
 }
 
 #languages{
-    color: #DC4301;
+    color: #00A6A6;
     font-size: 11px;
 }
 
